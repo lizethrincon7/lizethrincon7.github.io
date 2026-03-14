@@ -3,11 +3,11 @@ import type { Project } from "../types/project";
 export const projects: Project[] = [
   {
       id: 1,
-      title: "AI Chat Application",
-      description: "Real-time chat application with AI-powered responses. Utilizes OpenAI's GPT for intelligent conversations and features a modern, intuitive interface.",
-      image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=800&h=400&fit=crop",
-      tags: ["React", "Node.js", "OpenAI", "WebSocket"],
-      demoUrl: "https://chat.example.com",
+      title: "Análisis de movilidad urbana y productividad económica en LATAM ",
+      description: "Evaluar como la movilidad urbana se relaciona con la productividad económica en las principales ciudades latinoamericanas e identificar en que ciudades conviene invertir en infraestructura de transporte.",
+      image: "https://tse3.mm.bing.net/th/id/OIP.sYkrmNlmsQwbysuDp28tBgHaFQ?rs=1&pid=ImgDetMain&o=7&rm=3?w=800&h=400&fit=crop",
+      tags: ["Python", "Matplotlib", "Seaborn"],
+      demoUrl: "https://www.notion.so/An-lisis-de-movilidad-urbana-y-productividad-econ-mica-en-LATAM-9fb463e130af82e693c181738c5d2c1b?source=copy_link",
       githubUrl: "https://github.com/example/ai-chat",
       featured: true
     },
