@@ -1,16 +1,15 @@
 ---
 interface Skill {
   name: string;
-  level: 'Expert' | 'Advanced' | 'Intermediate';
+  level: 'Basico' | 'Intermedio' | 'Avanzado';
   icon: string;
 }
 
 const skills: Skill[] = [
-  { name: 'JavaScript', level: 'Expert', icon: '⚡' },
-  { name: 'TypeScript', level: 'Expert', icon: '📘' },
-  { name: 'React', level: 'Expert', icon: '⚛️' },
-  { name: 'Node.js', level: 'Advanced', icon: '🟢' },
-  { name: 'Python', level: 'Advanced', icon: '🐍' },
+  { name: 'Excel', level: 'Avanzado', icon: '🟢' },
+  { name: 'Python', level: 'Basico', icon: '🐍' },
+  { name: 'Power BI', level: 'Intermedio', icon: '📊' },
+  { name: 'Power Platform', level: 'Intermedio', icon: '📊' },
 ];
 
 const levelColors = {
