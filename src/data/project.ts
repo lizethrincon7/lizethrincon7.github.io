@@ -15,7 +15,7 @@ export const projects: Project[] = [
       id: 2,
       title: "Análisis de embudo y retención para MercadoLibre",
       description: "Mapear con SQL el embudo de conversión completo, identificar los principales puntos de fuga y evaluar la retención de usuarios por cohortes Y proponer mejoras accionables basadas en los datos.",
-      image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=400&fit=crop",
+      image: "https://tse3.mm.bing.net/th/id/OIP.AX5O8Xd-sWCWNdk0ZFjeqgHaFc?rs=1&pid=ImgDetMain&o=7&rm=3?w=800&h=400&fit=crop",
       tags: ["SQL", "Excel", "CTEs","Análisis de embudo"],
       demoUrl: "https://www.notion.so/An-lisis-de-embudo-y-retenci-n-para-MercadoLibre-323463e130af80ca9bc8d24995d5ac55?source=copy_link",
       githubUrl: "https://github.com/example/portfolio",
