@@ -2,14 +2,13 @@
 import { Image } from 'astro:assets'
 
 const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'github' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'linkedin' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'twitter' },
+  { name: 'GitHub', url: 'https://github.com/lizethrincon7', icon: 'github' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/lizethrincon7/', icon: 'linkedin' },
 ]
 
 // Get current time in different formats
 const now = new Date()
-const timeString = now.toLocaleTimeString('en-US', {
+const timeString = now.toLocaleTimeString('es-MX', {
   hour: '2-digit',
   minute: '2-digit',
   hour12: true,
@@ -30,7 +29,7 @@ const timeString = now.toLocaleTimeString('en-US', {
       </div>
       <div>
         <p class="text-sm text-apple-gray-400">Location</p>
-        <p class="font-medium">San Francisco, CA</p>
+        <p class="font-medium">Guanajuato, México</p>
       </div>
     </div>
   </div>
@@ -48,7 +47,7 @@ const timeString = now.toLocaleTimeString('en-US', {
       </div>
       <div>
         <p class="text-sm text-apple-gray-400">Local Time</p>
-        <p class="font-medium">PST • {timeString}</p>
+        <p class="font-medium">CST • {timeString}</p>
       </div>
     </div>
   </div>
